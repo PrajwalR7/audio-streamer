@@ -19,7 +19,6 @@ const App = () => {
     };
 
     wsConnection.onmessage = (event) => {
-      console.log(event.data)
       if (typeof event.data !== "string") {
         const chunk = event.data;
         setAudioData((prevData) => [...prevData, chunk]);
