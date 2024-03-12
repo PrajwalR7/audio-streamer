@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+yt-dlp = {file = "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz"}
+moviepy = "*"
+pytube = "11.0.0"
+install = "*"
+youtube-transcript-api = "*"
+websockets = "*"
+uvicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
